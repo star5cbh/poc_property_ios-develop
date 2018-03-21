@@ -144,8 +144,8 @@
 
 - (void)begainCompare:(UIButton *)sender {
     
-    FCPPFace *face1 = [[FCPPFace alloc] initWithFaceToken:@"01c06f0792c5931297e353f48df642ce"];
-    FCPPFace *face2 = [[FCPPFace alloc] initWithFaceToken:@"f4e87dd0562a670cfb05d23b10b5f2a7"];
+    FCPPFace *face1 = [[FCPPFace alloc] initWithFaceToken:@"5f15294a8c80bbc0858b013b477f5e61"];
+    FCPPFace *face2 = [[FCPPFace alloc] initWithFaceToken:@"e8f031492d1cbd6fbc2523e41a2b5cda"];
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [face1 compareFaceWithOther:face2 completion:^(id info, NSError *error) {
