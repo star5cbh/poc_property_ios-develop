@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : BaseViewController
+@property (strong , nonatomic) UIImage *image;
 
+@property (strong , nonatomic) NSMutableArray *dataArray;
+
+@property (strong, nonatomic)  UIImageView *imageView;
+@property (strong, nonatomic)  UILabel *tokenLabel;
 
 @end
 

@@ -1,0 +1,29 @@
+
+
+
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '8.0'
+
+target 'PropertyPOC' do
+
+pod 'MBProgressHUD'
+
+pod 'MJRefresh'
+
+pod 'SDAutoLayout'
+
+pod 'YYKit'
+
+pod 'IQKeyboardManager'
+
+pod 'SocketRocket'
+
+pod 'JSONModel'
+
+pod 'AFNetworking'
+
+
+end
+
+
